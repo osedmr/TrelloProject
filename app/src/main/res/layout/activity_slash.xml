@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+
+    tools:context=".activities.SlashActivity">
+
+    <TextView
+        android:id="@+id/splashPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Osman Demir Trello"
+        android:textSize="@dimen/splash_screen_title_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_on_primary"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
